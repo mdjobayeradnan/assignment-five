@@ -109,12 +109,12 @@ if(maxSeat == countSeat){
  
  
  document.getElementById("next-btn").addEventListener("click", function () {
-   // Get input values
+
    const name = document.getElementById("customerName").value.trim();
    const phone = document.getElementById("customerNumber").value.trim();
    const email = document.getElementById("customerEmail").value.trim();
  
-   // Basic validation
+
    if (name === "" || phone === "number" || email === "") {
        alert("Please fill out all required fields.");
        return;
@@ -125,12 +125,12 @@ if(maxSeat == countSeat){
  }
    
  
-   // If all inputs are filled, show success modal
+   
    const modal = document.getElementById("successModal");
    modal.classList.remove("hidden");
  });
+
  
- // Close modal on button click
  document.getElementById("closeModal").addEventListener("click", function () {
    const modal = document.getElementById("successModal");
    modal.classList.add("hidden");

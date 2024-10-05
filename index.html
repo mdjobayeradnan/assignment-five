@@ -30,7 +30,7 @@
 
     .selected {
   background-color:rgb(39, 239, 39);
-  color: white; /* Optional: change text color for contrast */
+  color: white; 
 }
 
    
@@ -125,7 +125,7 @@ color: rgb(141, 146, 146);
   </div>
 
   <div class="lg:flex relative lg:top-12 items-center place-content-center max-w-5xl lg:mx-auto hidden">
-    <div class="lg:grid lg:grid-cols-3 lg:w-[1000px] sm:grid sm:grid-cols-1 lg:gap-5 sm:w-[200px]  sm:gap-2 absolute">
+    <div class="lg:grid lg:grid-cols-3  md::grid-cols-3     lg:w-[1000px] sm:grid sm:grid-cols-1 lg:gap-5 sm:w-[200px]  sm:gap-2 absolute">
       <div class="card card-side bg-base-100 shadow-xl px-10 ">
         <figure>
           <img src="images/stoppage.png" alt="Registered Users" />
@@ -246,9 +246,9 @@ color: rgb(141, 146, 146);
   </div>
 
 
-  <div class="lg:flex justify-between items-center rounded-lg mx-auto 
-  lg:w-[1200px]   bg-white mt-[50px]">
-    <div class="border-2 border-green-400  lg:w-[780px]  sm:w-[400px]   lg:h-[400px] sm:h-[700px] p-8">
+  <div class="lg:flex md:flex justify-between items-center rounded-lg mx-auto 
+  lg:w-[1200px]  md:w-[800px]  bg-white mt-[50px]">
+    <div class="border-2 border-green-400  lg:w-[780px]  md:h-[500px]  sm:w-[400px]   lg:h-[400px] sm:h-[700px] s] p-8">
       <div class="justify-between lg:flex py-4">
         <div class="flex lg:w-[500px]  sm:w-[300px[]  items-center gap-2">
           <img src="./images/bus-logo.png" alt="">
@@ -263,7 +263,7 @@ color: rgb(141, 146, 146);
 
 
 
-<div class="p-2 rounded-lg bg-slate-50 border-2 border-red-600 sm:mx-auto lg:w-[700px] sm:w-[400px] lg:h-[200px]sm:h-[400px]">
+<div class="p-2 rounded-lg bg-slate-50 border-2 border-red-600 sm:mx-auto lg:w-[700px] sm:w-[400px] md:w-[300px] lg:h-[200px] md:h-[150px]  sm:h-[400px]">
 
       <div class="flex    justify-between">
   <span>Route</span>
@@ -351,9 +351,9 @@ color: rgb(141, 146, 146);
 
 
 
-  <div class="lg:flex lg:w-[1200px] lg:h-[900px] sm:w-[400px]  sm:h-[500px] mx-auto border-2 border-red-200 lg:justify-between lg:items-center bg-white">
+  <div class="lg:flex md:flex lg:w-[1200px] md:w-[800px] lg:h-[900px] md:h-[900px] sm:w-[400px]  sm:h-[500px] mx-auto border-2 border-red-200 lg:justify-between lg:items-center bg-white">
 
-    <div class="lg:grid lg:grid-cols-2 sm:grid sm:grid-cols-4   lg:w-[750px]    lg:h-[900px] sm:w-[450px]  border-2 border-red-200 sm:mx-auto  font-bold lg:text-2xl lg:p-5">
+    <div class="lg:grid lg:grid-cols-2  md:grid md:grid-cols-2 md:h-[800px] sm:grid sm:grid-cols- sm:p-2 lg:w-[750px]    lg:h-[900px] sm:w-[300px]  border-2 border-red-500 sm:mx-auto  font-bold lg:text-2xl lg:p-5">
 
       <!-- First row of seats -->
       <div class="flex gap-2">
@@ -490,7 +490,7 @@ color: rgb(141, 146, 146);
 
 
 
-    <div id="customerDetails" class="lg:m-8 lg:p-5 sm:p-3 bg-slate-200	 lg:w-[400px]  shadow-md rounded-3xl">
+    <div id="customerDetails" class="lg:m-8 lg:p-5 sm:p-3 bg-slate-200 lg:h-[700px]	md:h-[800px] lg:w-[400px]  md:w-[300px]     shadow-md rounded-3xl">
       <h2 class="text-2xl font-semibold mb-4">Select Your Seat </h2>
 <hr>
 
@@ -554,10 +554,10 @@ color: rgb(141, 146, 146);
       </div>
 
 
-      <button  id="next-btn" class="lg:w-[350px] sm:w-[300px] bg-green-500 rounded-lg font-bold text-white lg:h-[50px]">Next</button>
+      <button  id="next-btn" class="lg:w-[350px] md:w-[250px] p-3 sm:w-[300px] bg-green-500 rounded-lg font-bold text-white lg:h-[50px]">Next</button>
 
 
-      <div class="flex justify-between underline p-3">
+      <div class="flex lg:w-[350px] md:w-[300px] justify-between underline p-3">
         <span>Terms and Conditions</span>
         <span>Cancellation Policy</span>
       </div>
@@ -609,43 +609,36 @@ color: rgb(141, 146, 146);
 
 
 
-<footer class="lg:w-[1200px]  lg:mt-[180px] lg:h-[250px]  mx-auto  border-2 border-green-200 p-8 text-white bg-black">
+<footer class="lg:w-[1200px] md:lg:mt-[180px] lg:h-[250px]  mx-auto  border-2 border-green-200 p-8 text-white bg-black">
 
 
-  <div class="flex w-[1000px]   justify-between text-center">
-    <span class="flex">
+  <div class="lg:w-[1000px]   justify-between text-center">
+    <div class="flex items-center justify-between lg:w-[900px]">
       <h1 class="text-2xl">P-Ticket </h1>
       <h1 class="py-4">Download our app</h1>
    
-</span>
-    
-<span> 
- 
+    </div>
+
+
+<div class="flex items-center justify-between  lg:w-[900px]">
+  <p>P-Ticket is a digital platform to make your daily commuting better.</p>
+  <span class="flex items-center gap-3">
+    <img src="images/playstore.png" alt="">
+    <h1>Get it on <br> <small class="sm:text-2xl">Google Play</small></h1>
   </span>
-  <span class="lg:flex items-center gap-3">
-
-        <img src="images/playstore.png" alt="">
+</div>
     
-  
-  
-    <p>Get it on <br>
-    <small>Google Play</small></p>
-  </span>
 
 
-  <p class="pl-9">P-Ticket is a digital platform to make your <br>daily commuting better.</p>
-
+  <div class="lg:flex justify-between py-6">
+    <p class="sm:text-sm">@all rights reserved, P-Ticket services limited.2024 </p>
   
-  </div>
-
-  <div class="flex justify-between py-6">
-    <span>@all rights reserved, P-Ticket services limited.2024 </span>
-  
-    <span class="flex gap-5">
+    <span class="flex gap-5 sm:pt-2">
       <h1>Terms & condition</h1>
       <h1>Return & refund policyd</h1>
       <h1>Privacy policy</h1>
     </span>
+  </div>
   </div>
   </footer>
   
