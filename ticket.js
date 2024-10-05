@@ -4,7 +4,7 @@ function showSeatSelection(){
  }
    
  const allSeat = document.getElementsByClassName('seat')
- let countSeat = 0;
+ 
  let leftSeat = 40;
  const maxSeat = 4
      for(const seat of allSeat){
@@ -18,7 +18,16 @@ function showSeatSelection(){
  
  const ticketClass = 'Economoy';
  const ticketPrice = 550;
- 
+
+
+const countSeat = getConvertedValue('seat-count');
+document.getElementById('seat-count').innerText = countSeat + 1
+if(maxSeat == countSeat){
+    alert('only 4 set u can select')
+ }
+
+ const leftSeat = getConvertedValue('seat-left')
+ document.getElementById('seat-left').innerText = leftSeat - 1
  
  
  const selectedContainer = document.getElementById('selected-Customer-seat')
